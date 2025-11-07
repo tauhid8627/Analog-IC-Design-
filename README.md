@@ -1,6 +1,6 @@
 # Analog-IC-Design-
 
-##Common Sorce Amplifier Design
+## Common Source Amplifier Design
 
 This Python script helps analog and circuit designers quickly visualize transistor characteristics from CSV files — such as:
 
@@ -21,5 +21,6 @@ The script automatically:
   -Lets you click on any data point to view its exact coordinates.
 
 
-EXAMPLE:
-  python plot_csv.py ./CSV_Files/id_vgs_NMOS.csv
+Run the code using:
+
+  `python plot_csv.py ./CSV_Files/id_vgs_NMOS.csv`
