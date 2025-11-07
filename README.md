@@ -3,20 +3,15 @@
 ## Plot MOSFET Characteristics using Python
 This Python script helps analog and circuit designers quickly visualize transistor characteristics from CSV files — such as:
 
-    -Id–Vgs plots
-  
-    -Gm–Width plots
+    -Id vs Vgs plots  
+    -Gm vs MOS Width plots
   
 These graphs are essential for MOSFET sizing and amplifier or any analog circuit design.
 
 The script automatically:
 
-    -Reads CSV data and extracts labels from the header.
-  
-    -Plots the data with proper scaling and grid.
-  
-    -Automatically switches to scientific notation for large or small values.
-  
+    -Reads CSV data and extracts labels from the header.  
+    -Plots the data with proper scaling and grid.  
     -Lets you click on any data point to view its exact coordinates.
 
 
