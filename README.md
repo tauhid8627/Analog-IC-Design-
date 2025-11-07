@@ -39,3 +39,5 @@ Usage:
 Example:
 
 `python fileCat.py "\.cdl$" combined_lib.cdl ./StandardCells`
+
+** Useful for merging any other file type eg:- .py, .txt, .html, etc **
