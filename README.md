@@ -18,3 +18,24 @@ The script automatically:
 Run the code using:
 
   `python plot_csv.py ./CSV_Files/id_vgs_NMOS.csv`
+
+
+## Combine_CDL_FIles
+
+This Python script helps VLSI and analog designers merge multiple CDL (Circuit Description Language) netlists into a single file.
+
+If you have a library of standard cell CDL files, this tool saves time by automatically combining them so you can import all netlists at once into tools like Cadence Virtuoso or HSPICE.
+
+    -Combines all CDL files matching a given regex pattern
+    -Reads files safely using UTF-8 encoding
+    -Automatically adds file names as headers for clarity
+    -Skips files that can’t be read
+    -Outputs a single, ready-to-import CDL file
+
+Usage:
+
+`python fileCat.py <fileRegeX> <outputFileName> <Directory>`
+
+Example:
+
+`python fileCat.py "\.cdl$" combined_lib.cdl ./StandardCells`
