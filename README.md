@@ -19,6 +19,11 @@ Run the code using:
 
   `python plot_csv.py ./CSV_Files/id_vgs_NMOS.csv`
 
+Preview:
+<img width="900" height="600" alt="Figure_1" src="https://github.com/user-attachments/assets/352a6221-5ca4-4a54-b425-c02dbd3202e4" />
+
+  
+
 
 ## Combine_CDL_FIles
 
